@@ -1,3 +1,6 @@
+body {
+    background-color: rgb(253, 152, 152);
+}
 header {
     text-align: center;
     background-color: rgb(0, 0, 0);
@@ -26,7 +29,10 @@ div h1 {
     font-size: 450%;
 }
 
-.divbody1 {
-
+.Objetivo {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+    font-size: 21px;
 }
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
