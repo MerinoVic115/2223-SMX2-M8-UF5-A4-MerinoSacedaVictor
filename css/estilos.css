@@ -73,6 +73,10 @@ div h1 {
     .estudios p {
         text-align: center;
     }
+
+    .imgexp {
+        width: 100%;
+    }
     @media screen and (max-width: 500px) {
         .imgedu {
             width: 100%;
@@ -85,7 +89,7 @@ div h1 {
         }
 
         .imgexp {
-            width: 150%;
+            width: 100%;
             height: auto;
         }
         .exp {
