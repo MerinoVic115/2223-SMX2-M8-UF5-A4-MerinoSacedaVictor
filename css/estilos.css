@@ -77,10 +77,18 @@ div h1 {
     .imgexp {
         width: 100%;
     }
+
+    #merce {
+        width: 75%;
+    }
     @media screen and (max-width: 500px) {
         .imgedu {
-            width: 100%;
+            width: 400px;
             height: auto;
+
+        }
+        #merce {
+            width: 405px;
         }
         .estudios {
             p {
