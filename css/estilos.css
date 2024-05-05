@@ -53,6 +53,8 @@ div h1 {
 
     .imgprincipal {
         width: 75%;
+        max-width: 75%;
+        height: auto;
     }
     .descripcionmia11 {
         text-align: center;
@@ -65,9 +67,10 @@ div h1 {
         text-align: center;
     }
     .video {
-        position: static;
-        margin-left: 32%;
-        margin-right: 35%;     
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;  
     }
 
     .estudios p {
@@ -76,11 +79,27 @@ div h1 {
 
     .imgexp {
         width: 100%;
+        height: auto;
+    }
+    
+    .textoexp {
+        max-width: 100%;
+        text-align: center;
+    }
+    .contenedor {
+        text-align: center;
+    }
+    .boton {
+        padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ff0000;
+    color: #eeff00;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
     }
 
-    #merce {
-        width: 75%;
-    }
     @media screen and (max-width: 500px) {
         .imgedu {
             width: 400px;
